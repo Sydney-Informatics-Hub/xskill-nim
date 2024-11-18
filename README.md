@@ -3,7 +3,7 @@ Notebook and data for NVIDIA-NIM cross skilling session
 
 To run the notebook setup the environment in conda using:
 
-`conda env create -f environment.yml -p ./xskill-rag`
+`conda env create -f env.yaml -p ./xskill-rag`
 
 then:
 
