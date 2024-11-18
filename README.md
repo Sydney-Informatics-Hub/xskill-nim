@@ -23,7 +23,7 @@ then start a notebook server and load the notebook in the browser:
 5. Install NGC CLI following instructions here: https://org.ngc.nvidia.com/setup/installers/cli
 6. Add NGC CLI to the path with: `export PATH=$PATH:$(pwd)/ngc-cli`
 7. Configure NGC CLI: `ngc config set`
-8. Check the list of available images: `ngc registry image list --format_type csv nvcr.io/nim/*`
+8. Check the list of available images: `ngc registry image list --format_type ascii nvcr.io/nim/*`
 9. Get further info for a particular image: `ngc registry image info --format_type ascii nim/meta/llama-3.1-8b-instruct:latest`
 10. Run the contents of setup_MPC on the MPC to run the docker image for the `llama-3.1-8b-instruct:latest` NIM.
 11. Check connection with:
